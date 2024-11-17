@@ -52,7 +52,7 @@ from diffusers.training_utils import EMAModel
 from diffusers.utils import check_min_version, deprecate, is_wandb_available
 from diffusers.utils.import_utils import is_xformers_available
 
-from Pix2pix_data import LoRA_Json_Dataset
+from dataset import LoRA_Json_Dataset
 from torch.utils.data import DataLoader
 # Will error if the minimal version of diffusers is not installed. Remove at your own risks.
 check_min_version("0.23.0")
